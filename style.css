@@ -12,7 +12,7 @@ body {
 .lilas {
     height: 300px;               /*altura*/
     display: flex;                  /*alinhar*/
-    justify-content: flex-end;        /*centralizar horizonte*/
+    justify-content: end;        /*centralizar horizonte*/
     align-items: flex-end;          /*centralizar vertical*/
     gap: 10px;                    /* espaço*/
     background-color: #ab8dcf;
@@ -22,4 +22,19 @@ body {
     height: 100px;
     border-radius: 50%;
     background-color: #7847b3;
+}
+
+.verde {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(153, 229, 123);
+}
+.verde div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(123, 189, 97);
 }
